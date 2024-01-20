@@ -1,10 +1,12 @@
 # Search-Queries-Anomalies-Case-Study
-Search Queries Anomaly Detection means identifying queries that are outliers according to their performance metrics. It is valuable for businesses to spot potential issues or opportunities, such as unexpectedly high or low CTRs.
-The dataset we have contains search queries that lead users to a specific website, along with associated metrics. The columns in this dataset are:
+Search Queries Anomaly Detection means identifying queries that are outliers according to their performance metrics. It is valuable for businesses to spot potential issues or opportunities, such as unexpectedly high or low CTRs.  
+Below is the process we can follow for the task of Search Queries Anomaly Detection:  
 
-Top Queries: The actual search terms used by users.
-Clicks: The number of times users clicked on the website after using the query.
-Impressions: The number of times the website appeared in search results for the query.
-CTR (Click Through Rate): The ratio of clicks to impressions, indicating the effectiveness of the query in leading users to the website.
-Position: The average ranking of the website in search results for the query.
-The problem at hand is to utilize the available dataset to detect anomalies in search queries — queries that perform significantly differently from the majority. The goal is to identify queries that are either underperforming or overperforming in terms of clicks, impressions, CTR, and search position.
+Gather historical search query data from the source, such as a search engine or a website’s search functionality.  
+Conduct an initial analysis to understand the distribution of search queries, their frequency, and any noticeable patterns or trends.  
+Create relevant features or attributes from the search query data that can aid in anomaly detection.  
+Choose an appropriate anomaly detection algorithm. Common methods include statistical approaches like Z-score analysis and machine learning algorithms like Isolation Forests or One-Class SVM.  
+Train the selected model on the prepared data.  
+Apply the trained model to the search query data to identify anomalies or outliers.
+
+
